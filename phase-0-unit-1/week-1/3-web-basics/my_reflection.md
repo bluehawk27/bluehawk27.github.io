@@ -10,4 +10,4 @@
 2.  The file that is visible is the .html site. It is also important to apply it to the correct DNS.
 3.  I felt like I had a mini accomplishment.
 4.  Pushing files, seeing them pop in the repository and having a live affect on the web.
-5.  None
+5.  None.
