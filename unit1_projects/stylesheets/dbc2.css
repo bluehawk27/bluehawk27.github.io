@@ -1,1 +1,74 @@
-test
+body {
+	background: #ffffff; 
+	margin: 0; 
+	padding: 0;} 
+a {
+	color: #2b2bf6;}           
+#container {
+	position: top;
+	overflow: auto;
+	margin: 0; 
+	padding: 0; 
+	background: #dddddd;}           
+#header {
+	width: 100%;
+	min-width: 500px; 	
+	height: 150px;
+	position: relative;
+	text-align: center;
+	text-align: middle;
+	line-height: 150px; 	
+	margin: 0; 
+	padding: 0; 
+	border: 0; 
+	background: #839CB5;}           
+#sidebar {
+	position: relative;
+	right: 0;
+	top: 0;
+	width: 20%; 
+	height: 100px; 	
+	margin: 0; 
+	padding: 0; 
+	border: 0; 
+	float: right; 
+	background: white;}           
+#content {
+	width: 80%;
+	position: relative;
+	min-width: 500px; 
+	min-height: 400px; 	
+	margin: 0px; 
+	padding: 0px; 
+	border: 0; 
+	float: left; 
+	background: #C5CFC6;}           
+#footer {
+	width: 100%;
+	min-width:  500px;	
+	height: 70px; 	
+	margin: 0; 
+	padding: 0; 
+	border: 0; 
+	float: left;
+	text-align: center;
+	text-align: middle;
+	line-height: 70px; 
+	background: #839CB5; 
+	clear:both;}
+h3	{
+	text-align: center;
+}	
+p   {
+	text-align: left;
+	outline-width: 60%;
+	margin-left: 30px;
+	margin-right: 30px;
+	text-indent: 40px;
+}
+.image  {
+	text-align: center;
+}
+.caption {
+	text-align: center;
+}
