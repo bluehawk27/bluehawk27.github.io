@@ -1,0 +1,129 @@
+.header {
+        overflow: auto;
+        text-align: center;
+        border-bottom: 1px solid gray;
+        background-color: #C2EBFF;
+}       
+
+#pair-response {
+        display: block;
+        float: left;
+        font-size: .9rem;
+        width: 49%;
+        padding-bottom: 20px;
+}
+
+#indiv-response {
+        display: block;
+        float: right;
+        font-size: .9rem;
+        width: 49%;
+}
+
+.responsive-design, .fluid-layouts, .your-conclusion {
+        margin: 0 1rem 0 1rem;
+}
+
+.reflection {
+        font-size: .9rem;
+        margin: 0 1rem 0 1rem;
+}
+
+.references {
+        clear: both; 
+        border-top: 1px solid gray; 
+        font-size: .9rem;
+}
+
+p {
+        font-family: helvetica;
+        text-indent: 1rem;
+        text-align: justify;
+        line-height: 150%;
+}
+
+li {
+        font-family: helvetica;
+        font-size: .8rem;
+        line-height: 125%;
+}
+
+sup {
+        font-size: .5rem;
+}
+
+
+@media screen and (max-width: 480px) {
+
+        h1 {
+                font-size: 1.25rem;
+        }
+        h4 {
+                font-size: 1rem;
+        }
+        sup {
+        font-size: .7rem;
+        }
+        #pair-response, #indiv-response, .references {
+                width: 100%;
+                padding-bottom: 0;
+        }
+        .responsive-design, .fluid-layouts, .your-conclusion, .reflection  {
+                font-size: 1rem;
+                margin: 0 .5rem 0 .5rem;
+        }
+}
+
+/* ipad screen */
+@media screen and (min-device-width : 768px) and (max-device-width : 1024px) 
+and (orientation : portrait) {
+        h1 {
+                font-size: 2.75rem;
+        }
+        h3 {
+                font-size: 2rem;
+        }
+        h4 {
+                font-size: 1.5rem;
+        }
+        sup {
+        font-size: .7rem;
+        }
+        #pair-response, #indiv-response, .references {
+                width: 100%;
+                padding-bottom: 0;
+        }
+        .responsive-design, .fluid-layouts, .your-conclusion, .reflection  {
+                font-size: 1.25rem;
+                margin: 0 .8rem 0 .8rem;
+        }
+        li {
+                font-size: 1.25rem;
+        }
+}
+
+
+/* iphone 5 screen ??? */
+@media screen and (device-aspect-ratio: 40/71) {
+        h1 {
+                font-size: 3rem;
+        }
+        h4 {
+                font-size: 2rem;
+        }
+        sup {
+        font-size: .7rem;
+        }
+        #pair-response, #indiv-response, .references {
+                width: 100%;
+                padding-bottom: 0;
+        }
+        .responsive-design, .fluid-layouts, .your-conclusion, .reflection  {
+                font-size: 1rem;
+                margin: 0 .5rem 0 .5rem;
+        }
+                li {
+                font-size: 1rem;
+        }
+
+}
