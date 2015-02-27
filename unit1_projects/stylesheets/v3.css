@@ -1,0 +1,109 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100%;
+    min-width: 550px;
+    font-size: .9em;
+}
+
+a {
+    color: #2b2bf6;
+}
+a:hover{
+    color:#ffffff;
+    text-decoration: none;
+}
+h2, h3 {
+    text-align: center;
+    text-decoration: underline;
+}
+p {
+    margin: .4em 0 .8em 0;
+    padding: 0;
+}
+
+#header {
+    clear: both;
+    float: left;
+    width: 100%;
+    text-align: center;
+    border: 0;
+    background: #839CB5;
+    border-bottom: 2px solid black;
+    border-radius: 25px;
+}
+.colmask {
+    position: relative;
+    clear: both;
+    float: left;
+    width: 100%;
+    overflow: hidden;
+}
+.colright, .colmid, .colleft {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+.col1, .col2, .col3 {
+    float: left;
+    position: relative;
+    padding: 0 0 1em 0;
+    overflow: hidden;
+}
+.threecol .colmid {
+    right: 25%;
+    background: #fff;
+}
+.threecol .colleft {
+    right: 50%;
+    background: #f4f4f4;
+}
+.threecol .col1 {
+    width: 46%;
+    left: 102%;
+    background-image: url("../images/grey-background.jpg")
+}
+.threecol .col2 {
+    width: 22%;
+    left: 31%;
+}
+.threecol .col3 {
+    width: 22%;
+    left: 85%;
+}
+#social-media {
+    height: 60px;
+    padding-top: 15px;
+    margin-top: 10px;
+}
+#resource-links{
+    margin-top:100px;
+}
+.icons {
+    height:50px;
+    width: 50px;
+}
+#footer {
+    clear: both;
+    float: left;
+    position: relative;
+    width: 100%;
+    border-top: 1px solid gray;
+    background-color: #839CB5;
+    text-align: center;
+    border-top: 2px solid black;
+    line-height: 50px
+}
+.image, .caption {
+    text-align: center;
+}
+.image {
+    margin: 20px;
+}
+
+}
+
+
+@media screen and (max-width: 480px) {
+   
