@@ -1,1 +1,0 @@
-ddequalcolumns.columnswatch = ["links", "misc", "content", "wrapper"]
