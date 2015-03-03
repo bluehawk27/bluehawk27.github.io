@@ -8,9 +8,13 @@ html, body {
 }
 
 header {
-  height: 20%;
+  height: 60px;
+  font-size: 3em;
+  overflow: hidden;
   width: 100%;
   text-align: center;
+  margin-bottom: 10px;
+  font-family: 'Lora', serif;
 }
 
 body {
@@ -117,6 +121,7 @@ ul li:hover ul {
 #profile {
   width:15%;
   display: inline-block;
+  position: relative;
   word-wrap: break-word;
   vertical-align: top;
   padding: 10px 10px 10px 0;
@@ -124,6 +129,18 @@ ul li:hover ul {
   -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
   -moz-box-shadow:  5px 5px 5px rgba(0, 0, 0, 0.2);
   box-shadow:  5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+#about{
+  margin-top: 15px;
+  border-top: 1px solid #888
+}
+#profile h6 {
+  margin-top: 7px;
+  text-align: left;
+  font-size: 1em;
+  width: 100%;
+}
+#social-media {
 }
 .icons {
     height:2em;
@@ -153,18 +170,22 @@ footer {
   width:1em;
   margin: 0 15px 30px 0;
 }
-#footer-social-media {
-  text-align: right;
-  margin-right: 30px;
-}
-h6 {
-  margin-right: 60px;
+#footer-social-media p{
+  font-size: .75em;
 }
 footer > p {
-  text-align: left;
-  margin: 60px 0 0 30px;
-  width: 20% ;
-  float:left;
   font-size: .75em;
 }
 /****************Footer Section end****************/
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* Styles */
+}
