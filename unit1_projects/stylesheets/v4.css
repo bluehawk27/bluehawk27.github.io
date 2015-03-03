@@ -159,7 +159,8 @@ main {
 footer {
   clear: both;
   float: left;
-  position: relative;
+  position: absolute;
+  bottom:0px;
   width: 100%;
   text-align: center;
   height: 50px;
