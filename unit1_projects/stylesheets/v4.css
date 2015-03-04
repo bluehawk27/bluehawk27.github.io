@@ -14,8 +14,7 @@ header {
   text-align: center;
   margin-bottom: 10px;
   padding-top: 10px;
-  font-family: distressedout;
-  /*font-family: /*'Lora', serif*/
+  font-family: distressedout, 'Lora', serif;
 }
 
 
