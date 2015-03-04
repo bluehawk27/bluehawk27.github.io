@@ -17,6 +17,7 @@ header {
   font-family: 'Lora', serif;
 }
 
+
 body {
   font-family: Lucida Grande, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 1em;
@@ -147,6 +148,7 @@ ul li:hover ul {
     width: 2em;
     margin-right: 15px ;
 }
+
 main {
   width: 50%;
   display: inline-block;
@@ -158,9 +160,9 @@ main {
 /*************Footer Section*************/
 footer {
   clear: both;
+  position:absolute;
   float: left;
-  position: absolute;
-  bottom:0px;
+  bottom: 0px;
   width: 100%;
   text-align: center;
   height: 50px;
