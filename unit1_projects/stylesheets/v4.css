@@ -35,6 +35,7 @@ body {
   /* This is what makes the background image rescale based
      on the container's size */
   background-size: cover;
+  height:auto;
 }
 
 /*************Navigation Section*************/
