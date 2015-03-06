@@ -221,7 +221,7 @@ footer > p {
   html, body{
     max-width: 100%;
   }
-  #about img {
+  #about img, .portrait {
     max-width: 100%;
     height: auto;
   }
@@ -238,7 +238,7 @@ footer > p {
 
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-  #about img {
+  #about img, .portrait {
     max-width: 100%;
     height: auto;
   }
