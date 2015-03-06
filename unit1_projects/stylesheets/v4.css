@@ -218,12 +218,18 @@ footer > p {
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  html, body{
+    max-width: 100%;
+  }
   #about img {
     max-width: 100%;
     height: auto;
   }
+  main p {
+    font-size: 2.5em;
+  }
   header {
-    width:100%;
+    font-size:2.5em;
   }
 
 
@@ -235,5 +241,10 @@ footer > p {
   #about img {
     max-width: 100%;
     height: auto;
+  }
+  header {
+    width: 100%;
+    height: 20%;
+
   }
 }
