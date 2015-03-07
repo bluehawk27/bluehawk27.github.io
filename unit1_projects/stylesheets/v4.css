@@ -215,7 +215,7 @@ footer > p {
 /****************Footer Section end****************/
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-device-width : 319px) and (max-device-width : 480px) {
   header {
     font-size:5em;
     padding: 15px 0 15px 0;
@@ -224,12 +224,16 @@ footer > p {
     margin-bottom: 30px;
     text-align: center;
     padding:15px 0 15px 0;
+
   }
   ul li{
-    width: 90%;
+    width: 100%;
     font-size: 1.6em;
     padding: 25px 15px 15px 15px;
     margin:0;
+    background: #d3d3d3;
+    border: 1px solid black;
+    border-radius: 15px;
   }
   ul li ul {
   width: 450px;
