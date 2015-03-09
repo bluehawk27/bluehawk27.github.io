@@ -37,6 +37,8 @@ body {
      on the container's size */
   background-size: cover;
   height:auto;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/background.png', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/background.png', sizingMethod='scale')";
 }
 
 /*************Navigation Section*************/
